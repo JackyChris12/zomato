@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+} 
+.header{
+    margin: auto;
+  display: flex;
+  flex-direction:row; 
+  padding:5%;
+  background-image: url("/images/zomato2.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:100vh;
+  justify-content: space-around;
+}
+.header img{
+    width: 100%;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}
+.investor ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.investor li{
+    list-style: none;
+}
+.zomato{
+    text-align: center;
+    position: relative;
+    bottom: 400px;
+    color: white;
+    font-size: 38px;
+    
+}
+
+
+
+.search{
+    display: flex;
+    flex-direction: row;
+    
+    position: relative;
+    bottom: 400px;
+    left: 500px;
+    background-color: white;
+    width: 30%;
+    padding: 10px;
+    
+    
+    
+}
+.child1{
+    border-right: 2px solid gray;
+}
+.child1 select{
+    border: none;
+   
+    
+}
+.child2 input{
+    
+    border: none;
+}
+
+
+
+ .same{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 200px;
+    
+ } 
+ .same h1{
+    color:rgb(22, 21, 21);
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+ } 
+ .same p{
+    color: rgb(73, 69, 69);
+    position: relative;
+    left: 20px;
+ }
+ .same-child {
+    border: 0.5px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+  
+    transition: transform 0.3s ease-in-out;
+    
+ }
+ .same-child:hover{
+    transform: scale(1.05);
+
+ }
+ .same-child a{
+    text-decoration: none;
+    
+ }
+ .collections{
+    margin: 30px;
+    position: relative;
+    bottom: 100px;
+ }
+ .similar-four{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    bottom: 100px;
+ }
+.four{
+    width:20%;
+}
+.four img{
+    width: 100%;
+}
+.four-child {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    bottom: 100px;
+    margin: 10px;
+}
+.four-child h3{
+    text-decoration: none;
+}
+.anchor a{
+    text-decoration: none;
+}
+
+
+
+
+
+
