@@ -7,7 +7,7 @@ body{
   display: flex;
   flex-direction:row; 
   padding:5%;
-  background-image: url("/images/zomato2.png");
+  background-image: url("images/zomato2.png");
   background-repeat:no-repeat;
   background-size:cover;
   height:100vh;
