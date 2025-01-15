@@ -134,6 +134,75 @@ body{
     text-decoration: none;
 }
 
+.similar-nine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 100px;
+}
+
+
+.three-child{
+   box-shadow: 2px 2px 2px 2px rgb(236, 232, 232);
+
+    border-radius: 10px;
+    margin: 10px;
+}
+.three-child h3{
+    position: relative;
+    left: 10px;
+    line-height: 2.5rem;
+
+}
+.three-child h4{
+    position: relative;
+    left: 10px;
+    
+}
+.three{
+    width: 100%;
+     
+}
+.three a{
+    text-decoration: none;
+    
+}
+.three-child{
+    padding: 20px;
+    box-shadow: 2px 2px 5px 2px rgb(211, 201, 201);
+}
+#see{
+    padding: 30px;
+}
+.span{
+    color: black;
+    font-size: 20px;
+}
+.span1{
+    color: gray;
+}
+.Popular{
+    margin-left: 105px;
+    font-size: 18px;
+}
+.localities{
+    position: relative;
+    bottom: 100px;
+}
+.zomato-app{
+    width: 50%;
+}
+.app{
+    width: 100%;
+}
+.app img{
+    width: 100%;
+}
+.email-phone{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
 
 
 
